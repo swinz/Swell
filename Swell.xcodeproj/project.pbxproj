@@ -453,6 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.minuteapps.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_MODULE_NAME = Swell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -473,6 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.minuteapps.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_MODULE_NAME = Swell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
