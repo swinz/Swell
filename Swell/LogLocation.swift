@@ -122,7 +122,7 @@ public class FileLocation: LogLocation {
             let urlDir = NSURL(fileURLWithPath: dir)
             let path = urlDir.URLByAppendingPathComponent(self.filename)
 //            let path = dir.stringByAppendingPathComponent(self.filename);
-            self.filename = path.absoluteString;
+            self.filename = path!.absoluteString!;
         }
     }
     
